@@ -37,7 +37,22 @@ export default defineConfig({
       'icon-btn',
       'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600',
     ],
+    ['flex-center', 'items-center  flex justify-center'],
   ],
+  rules: [
+    ['scale-x', { transform: 'scaleX(-1)' }],
+    ['m-center', { margin: '0 auto' }],
+    ['translate-y', { transform: 'translateY(-50%)' }],
+  ],
+  theme: {
+    colors: {
+      menu: '#262626',
+      menu_focus: '#f2f2f2',
+      btn_bg: '#9bf00b',
+      btn_hover: '#8bd80a',
+      btn: '#054b16',
+    },
+  },
   presets: [
     presetUno(),
     presetAttributify(),

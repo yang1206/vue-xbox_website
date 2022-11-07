@@ -7,8 +7,13 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    HelloWorld: typeof import('./../components/HelloWorld.vue')['default']
+    Button: typeof import('./../components/Button.vue')['default']
+    Carousel: typeof import('./../components/Carousel/Carousel.vue')['default']
+    CarouselDemo: typeof import('./../components/Carousel/CarouselDemo.vue')['default']
+    CarouselItem: typeof import('./../components/Carousel/CarouselItem.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SvgIcon: typeof import('./../components/SvgIcon.vue')['default']
+    TabBar: typeof import('./../components/TabBar.vue')['default']
   }
 }
