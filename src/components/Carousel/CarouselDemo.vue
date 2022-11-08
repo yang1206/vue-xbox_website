@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import useImageUrl from '@/composables/useImageUrl'
+import type Option from './type'
 const banner_1 = useImageUrl('banner_1', 'jpg')
 const banner_1_md = useImageUrl('banner_1_md', 'jpg')
 const banner_1_sm = useImageUrl('banner_1_sm', 'jpg')
@@ -9,7 +10,7 @@ const banner_2_sm = useImageUrl('banner_2_sm', 'jpg')
 const banner_3 = useImageUrl('banner_3', 'jpg')
 const banner_3_md = useImageUrl('banner_3_md', 'jpg')
 const banner_3_sm = useImageUrl('banner_3_sm', 'jpg')
-const options = ref([
+const options = ref<Option[]>([
   {
     src: banner_1,
     xlSrc: banner_1,
@@ -41,7 +42,7 @@ const options = ref([
     smSrc: banner_3_sm,
     textAling: 'right',
     text: {
-      title: 'Xbox & Bethesda Anniversary Collection',
+      title: 'Xbox & Bethesda \n Anniversary \n Collection',
       des: 'Celebrate the joy of gaming with franchise favorites',
       button: 'SHOP NOW',
     },

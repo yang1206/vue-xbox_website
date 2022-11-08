@@ -9,8 +9,8 @@ const props = defineProps<{
 }>()
 const current = ref(0)
 const isAutoPlay = ref<boolean>(props.autoplay)
-const arrowStatus = ref()
-const Toggle = (val: string) => {
+const arrowStatus = ref<'next' | 'prev'>()
+const Toggle = (val: 'next' | 'prev') => {
   arrowStatus.value = val
   if (val === 'next') {
     current.value += 1

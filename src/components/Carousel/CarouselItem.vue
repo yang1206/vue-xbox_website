@@ -35,10 +35,11 @@ withDefaults(
         absolute
         translate-y
         text-white
-        class="top-1/2"
+        z-10
+        class="top-2/5"
         :class="option.textAling === 'left' ? 'left-0' : 'right-0'"
       >
-        <h2 text-10 font-600 mt-2 style="white-space: pre-line">
+        <h2 text-11 font-600 mt-2 style="white-space: pre-line">
           {{ option.text?.title }}
         </h2>
         <p text-9 m="y-4">{{ option.text?.des }}</p>
