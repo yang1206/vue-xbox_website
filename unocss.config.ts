@@ -43,6 +43,7 @@ export default defineConfig({
     ['scale-x', { transform: 'scaleX(-1)' }],
     ['m-center', { margin: '0 auto' }],
     ['translate-y', { transform: 'translateY(-50%)' }],
+    ['text-trap', { whiteSpace: 'pre-line' }],
   ],
   theme: {
     colors: {

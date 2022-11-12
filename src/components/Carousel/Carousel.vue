@@ -43,15 +43,24 @@ const { pause, resume } = useIntervalFn(
 )
 </script>
 <template>
-  <div relative h-134 w-full class="content">
-    <div
-      v-for="(option, index) in options"
-      :key="option.src"
-      w-full
-      absolute
-      :class="index !== current ? 'hidden' : ''"
-    >
-      <carousel-item :option="option" :arrows="arrowStatus" />
+  <div
+    relative
+    xl-h-134
+    sm-h-260
+    w-full
+    cursor-pointer
+    class="content"
+    @mousemove="pause()"
+    @mouseleave="isAutoPlay ? resume() : pause()"
+  >
+    <div w-full sm-h-full absolute>
+      <div
+        v-for="(option, index) in options"
+        :key="option.src"
+        :class="index !== current ? 'hidden' : ''"
+      >
+        <carousel-item :option="option" :arrows="arrowStatus" />
+      </div>
     </div>
     <div
       v-if="arrows"

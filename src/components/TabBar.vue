@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const MenuList = ref([
+const MenuList = ref<string[]>([
   'Game Pass',
   'Games',
   'Devices',
@@ -10,7 +10,7 @@ const MenuList = ref([
 </script>
 
 <template>
-  <div h-16 bg-white pl-15 pr-15 flex justify-between>
+  <header h-16 bg-white pl-15 pr-15 flex items-center justify-between>
     <div h-full flex>
       <a w-40 flex justify-center items-center>
         <img h-7 width-35 src="@/assets/images/ms_logo.png" alt="" />
@@ -20,8 +20,8 @@ const MenuList = ref([
       </a>
       <div h-full flex items-center>
         <button
-          v-for="i in MenuList"
-          :key="i"
+          v-for="(item, index) in MenuList"
+          :key="index"
           h-full
           p="y-4
          x-4"
@@ -36,7 +36,7 @@ const MenuList = ref([
           transition-all
           class="menu"
         >
-          {{ i }}
+          {{ item }}
           <div text-4 ml-1 i-carbon:chevron-down />
         </button>
       </div>
@@ -69,7 +69,7 @@ const MenuList = ref([
         <SvgIcon w-8 icon-class="user" />
       </div>
     </div>
-  </div>
+  </header>
 </template>
 
 <style scoped>

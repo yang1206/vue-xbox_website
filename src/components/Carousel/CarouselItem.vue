@@ -14,7 +14,7 @@ withDefaults(
 </script>
 
 <template>
-  <div relative w-full h-134 overflow-hidden>
+  <div relative w-full xl-h-134 sm-h-260 overflow-hidden>
     <picture h-full absolute inset-0 alt="">
       <source :srcset="option.xlSrc" media="(min-width:1084px)" />
       <source :srcset="option.mdSrc" media="(min-width:768px)" />
@@ -27,23 +27,27 @@ withDefaults(
       :style="{
         'animation-name': arrows === 'prev' ? 'fade_left' : 'fade-right',
       }"
-      class="absolute inset-0 w-88/100 h-full m-center fade_block"
+      class="absolute inset-0 w-88/100 h-full m-center"
     >
       <div
-        w-126
-        h-60
+        xl-w-126
+        sm-w-full
         absolute
         translate-y
         text-white
         z-10
-        class="top-2/5"
-        :class="option.textAling === 'left' ? 'left-0' : 'right-0'"
+        class="xl-top-4/9 sm-bottom-10"
+        :class="option.textAling === 'left' ? 'xl-left-0' : 'xl-right-0'"
       >
-        <h2 text-11 font-600 mt-2 style="white-space: pre-line">
-          {{ option.text?.title }}
-        </h2>
-        <p text-9 m="y-4">{{ option.text?.des }}</p>
-        <Button>{{ option.text?.button }}</Button>
+        <div
+          class="sm-flex-center xl-block flex-col sm-text-center xl-text-left"
+        >
+          <h2 xl-text-11 sm-text-9 font-600 mt-2 xl-text-trap>
+            {{ option.text?.title }}
+          </h2>
+          <p xl-text-9 sm-text-7 m="y-4">{{ option.text?.des }}</p>
+          <Button>{{ option.text?.button }}</Button>
+        </div>
       </div>
     </div>
   </div>

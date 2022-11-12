@@ -51,7 +51,13 @@ const options = ref<Option[]>([
 </script>
 
 <template>
-  <Carousel :options="options" :arrows="true" :autoplay="true" :dots="true" />
+  <Carousel
+    :options="options"
+    :arrows="true"
+    :autoplay="true"
+    :dots="true"
+    :interval="5000"
+  />
 </template>
 
 <style scoped></style>
