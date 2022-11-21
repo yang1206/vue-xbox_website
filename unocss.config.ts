@@ -8,7 +8,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
-
+import { theme } from './src/theme'
 export default defineConfig({
   exclude: [
     'node_modules',
@@ -38,6 +38,7 @@ export default defineConfig({
       'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600',
     ],
     ['flex-center', 'items-center  flex justify-center'],
+    ...theme,
   ],
   rules: [
     ['scale-x', { transform: 'scaleX(-1)' }],

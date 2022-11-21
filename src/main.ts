@@ -1,8 +1,7 @@
 import 'uno.css'
+import { ViteSSG } from 'vite-ssg/single-page'
 import '@/styles/reset.css'
 import 'virtual:svg-icons-register'
-import { createApp } from 'vue'
 import App from './App.vue'
 
-const app = createApp(App)
-app.mount('#app')
+export const createApp = ViteSSG(App)

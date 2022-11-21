@@ -2,9 +2,11 @@
 
 <template>
   <button
-    style="transition: all 0.2s"
     bg-btn_bg
     hover:bg-btn_hover
+    transition
+    duration-500
+    ease-in-out
     text-btn
     p="x-6 y-2"
   >
@@ -19,7 +21,7 @@
         class="btn"
         ><slot
       /></span>
-      <div font-700 ml-3 i-carbon:chevron-right />
+      <div font-900 ml-3 i-carbon:chevron-right />
     </a>
   </button>
 </template>

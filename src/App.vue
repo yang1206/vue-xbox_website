@@ -1,8 +1,10 @@
 <template>
   <div h-full overflow-y-scroll>
-    <TabBar />
+    <NavBar />
     <CarouselDemo />
     <IconBlade />
+    <ItemList />
+    <Footer />
   </div>
 </template>
 

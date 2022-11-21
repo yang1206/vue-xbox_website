@@ -45,15 +45,14 @@ const { pause, resume } = useIntervalFn(
 <template>
   <div
     relative
-    xl-h-134
-    sm-h-260
+    max-h-full
     w-full
     cursor-pointer
     class="content"
     @mousemove="pause()"
     @mouseleave="isAutoPlay ? resume() : pause()"
   >
-    <div w-full sm-h-full absolute>
+    <div w-full h-full absolute>
       <div
         v-for="(option, index) in options"
         :key="option.src"
@@ -86,7 +85,7 @@ const { pause, resume } = useIntervalFn(
         <div text-6 i-carbon:chevron-right />
       </button>
     </div>
-    <div w-full h-15 bottom-1 absolute flex-center cursor-pointer>
+    <div absolute w-full h-15 bottom-1 flex-center cursor-pointer>
       <div w-12 h-10 text-white flex-center class="dotBg" @click="playClick">
         <div v-if="!isAutoPlay" text-5 i-carbon:play />
         <div v-else text-5 i-carbon:pause />

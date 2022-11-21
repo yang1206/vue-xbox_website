@@ -52,6 +52,10 @@ const options = ref<Option[]>([
 
 <template>
   <Carousel
+    xl-h-160
+    lg-h-118
+    sm-h-240
+    h-210
     :options="options"
     :arrows="true"
     :autoplay="true"

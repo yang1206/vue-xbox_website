@@ -11,10 +11,13 @@ declare module '@vue/runtime-core' {
     Carousel: typeof import('./../components/Carousel/Carousel.vue')['default']
     CarouselDemo: typeof import('./../components/Carousel/CarouselDemo.vue')['default']
     CarouselItem: typeof import('./../components/Carousel/CarouselItem.vue')['default']
+    Footer: typeof import('./../components/Footer.vue')['default']
     IconBlade: typeof import('./../components/IconBlade.vue')['default']
+    ItemCard: typeof import('./../components/Item/ItemCard.vue')['default']
+    ItemList: typeof import('./../components/Item/ItemList.vue')['default']
+    NavBar: typeof import('./../components/NavBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SvgIcon: typeof import('./../components/SvgIcon.vue')['default']
-    TabBar: typeof import('./../components/TabBar.vue')['default']
   }
 }
