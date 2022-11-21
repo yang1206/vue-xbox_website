@@ -23,7 +23,6 @@ specifiers:
   vite-plugin-svg-icons: ^2.0.1
   vite-ssg: ^0.22.0
   vue: ^3.2.43
-  vue-router: ^4.1.6
   vue-tsc: ^0.40.13
 
 dependencies:
@@ -31,7 +30,6 @@ dependencies:
   '@vueuse/core': 9.5.0_vue@3.2.43
   '@vueuse/head': 1.0.17_vue@3.2.43
   vue: 3.2.43
-  vue-router: 4.1.6_vue@3.2.43
 
 devDependencies:
   '@commitlint/cli': 17.2.0
@@ -51,7 +49,7 @@ devDependencies:
   unplugin-vue-components: 0.22.9_vue@3.2.43
   vite: 3.2.3_@types+node@18.11.9
   vite-plugin-svg-icons: 2.0.1_vite@3.2.3
-  vite-ssg: 0.22.0_ny62o575qkzv6r5u24km2cbf4q
+  vite-ssg: 0.22.0_yp3n6reo6t4m6aahasmr6otsem
   vue-tsc: 0.40.13_typescript@4.8.4
 
 packages:
@@ -1012,9 +1010,6 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.43
       '@vue/shared': 3.2.43
-
-  /@vue/devtools-api/6.4.5:
-    resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
 
   /@vue/reactivity-transform/3.2.43:
     resolution: {integrity: sha512-TGRvlD3Y8DTHGKg1VJYOMwC6CbrjNYh3wwUCKtwHSEv0uYdXjyn8r5KtklehP58G+opv6K2DhyBNPNhvSt9ttw==}
@@ -5865,7 +5860,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.22.0_ny62o575qkzv6r5u24km2cbf4q:
+  /vite-ssg/0.22.0_yp3n6reo6t4m6aahasmr6otsem:
     resolution: {integrity: sha512-GW8hARA4lT4fEAfxfnSEplV5JKQEM15yTVI8SZefYW69xfBVfujZrlqKqory+kHi7rgm7ZEhH8Uv82pdWETiSQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -5891,7 +5886,6 @@ packages:
       prettier: 2.7.1
       vite: 3.2.3_@types+node@18.11.9
       vue: 3.2.43
-      vue-router: 4.1.6_vue@3.2.43
       yargs: 17.6.2
     transitivePeerDependencies:
       - bufferutil
@@ -5965,14 +5959,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /vue-router/4.1.6_vue@3.2.43:
-    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
-    peerDependencies:
-      vue: ^3.2.0
-    dependencies:
-      '@vue/devtools-api': 6.4.5
-      vue: 3.2.43
 
   /vue-tsc/0.40.13_typescript@4.8.4:
     resolution: {integrity: sha512-xzuN3g5PnKfJcNrLv4+mAjteMd5wLm5fRhW0034OfNJZY4WhB07vhngea/XeGn7wNYt16r7syonzvW/54dcNiA==}
