@@ -44,7 +44,7 @@ const icons = [
         cursor-pointer
         class="icon"
       >
-        <SvgIcon md-w-20 md-h-18 w-30 h-24 :icon-class="i.icon" />
+        <nuxt-icon md-text-20 text-30 :name="i.icon" filled />
         <p
           class="text-#107c10 text"
           whitespace-nowrap

@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { useElementSize } from '@vueuse/core'
+import { ref, watch } from 'vue'
 const Menu = ['Game Pass', 'Games', 'Devices', 'Play', 'Community', 'More']
 const MenuList = ref<string[]>(Menu)
 const el = ref<HTMLElement>()
@@ -32,10 +33,10 @@ watch(width, (val) => {
   >
     <div h-full flex>
       <a w-40 flex justify-center items-center>
-        <img h-7 width-35 src="@/assets/images/ms_logo.png" alt="" />
+        <img h-7 width-35 src="~/assets/images/ms_logo.png" alt="" />
       </a>
       <a class="xboxLogo" w-35 relative h-full flex justify-center items-center>
-        <img w-25 src="@/assets/images/xbox_logo.png" alt="" />
+        <img w-25 src="~/assets/images/xbox_logo.png" alt="" />
       </a>
       <ul class="h-full flex items-center">
         <li v-for="(item, index) in MenuList" :key="index" h-full>
@@ -88,7 +89,7 @@ watch(width, (val) => {
         <div scale-x i-carbon:shopping-cart />
       </div>
       <div ml-6 flex justify-center items-center>
-        <SvgIcon w-8 icon-class="user" />
+        <nuxt-icon text-8 name="user" filled />
       </div>
     </div>
   </header>
@@ -103,20 +104,20 @@ watch(width, (val) => {
         </div>
       </div>
       <a w-40 flex justify-center items-center>
-        <img h-7 width-35 src="@/assets/images/ms_logo.png" alt="" />
+        <img h-7 width-35 src="~/assets/images/ms_logo.png" alt="" />
       </a>
       <div flex h-full>
         <div h-full text-5 p="x-2 y-5" pr-7>
           <div i-carbon:shopping-cart />
         </div>
         <div flex justify-center items-center>
-          <SvgIcon w-8 icon-class="user" />
+          <nuxt-icon text-8 name="user" filled />
         </div>
       </div>
     </div>
     <div h-34px w-full p-x-5 flex>
       <a w-20 relative h-full flex justify-center items-center>
-        <img w-full src="@/assets/images/xbox_logo.png" alt="" />
+        <img w-full src="~/assets/images/xbox_logo.png" alt="" />
       </a>
       <div h-full text-4 ml-3 i-carbon:chevron-down />
     </div>

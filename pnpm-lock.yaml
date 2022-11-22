@@ -13,6 +13,7 @@ specifiers:
   husky: ^8.0.2
   lint-staged: ^13.0.3
   nuxt: 3.0.0
+  nuxt-icons: ^3.0.0
   typescript: ^4.9.3
 
 devDependencies:
@@ -28,6 +29,7 @@ devDependencies:
   husky: 8.0.2
   lint-staged: 13.0.3
   nuxt: 3.0.0_hsf322ms6xhhd4b5ne6lb74y4a
+  nuxt-icons: 3.0.0
   typescript: 4.9.3
 
 packages:
@@ -5435,6 +5437,15 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /nuxt-icons/3.0.0:
+    resolution: {integrity: sha512-7F9/uug7T23d2IGsmz0Jyi4gw86HRZeuzfxC1+e5vsAfQ4MhUMRaANki+uDgiUWub1y5TsclxptG06EH1e3bRQ==}
+    dependencies:
+      '@nuxt/kit': 3.0.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
     dev: true
 
   /nuxt/3.0.0_hsf322ms6xhhd4b5ne6lb74y4a:
