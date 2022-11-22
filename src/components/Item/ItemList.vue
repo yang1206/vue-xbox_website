@@ -1,32 +1,11 @@
 <script lang="ts" setup>
 import type { ItemCardProps } from './type'
-const item1 = useImageUrl('10012', 'jpg')
-const item2 = useImageUrl('10013', 'jpg')
-const item2_sm = useImageUrl('10014', 'jpg')
-const item3 = useImageUrl('10016', 'jpg')
-const item3_sm = useImageUrl('10017', 'jpg')
-const item5 = useImageUrl('10018', 'jpg')
-const item5_sm = useImageUrl('10019', 'jpg')
-const item6 = useImageUrl('10020', 'jpg')
-const item6_sm = useImageUrl('10021', 'jpg')
-const item4 = useImageUrl('10015', 'jpg')
-const item7 = useImageUrl('10022', 'jpg')
-const item7_sm = useImageUrl('10023', 'jpg')
-const item8 = useImageUrl('10024', 'jpg')
-const item8_sm = useImageUrl('10025', 'jpg')
-const item9 = useImageUrl('10026', 'jpg')
-const item9_sm = useImageUrl('10027', 'jpg')
-const item10 = useImageUrl('10029', 'jpg')
-const item11 = useImageUrl('10028', 'jpg')
-const item12 = useImageUrl('10030', 'jpg')
-const item12_sm = useImageUrl('10031', 'jpg')
-const item13 = useImageUrl('10032', 'jpg')
-const item13_sm = useImageUrl('10038', 'jpg')
+
 const ItemList: ItemCardProps[] = [
   {
     direction: 'none',
-    mdSrc: item1,
-    smSrc: item1,
+    mdSrc: useImageUrl('10012', 'jpg'),
+    smSrc: useImageUrl('10012', 'jpg'),
     text: {
       title: 'Atomic Heart',
       des: 'What lies behind the utopian dream?',
@@ -36,8 +15,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: item3,
-    smSrc: item3_sm,
+    mdSrc: useImageUrl('10016', 'jpg'),
+    smSrc: useImageUrl('10017', 'jpg'),
     text: {
       title: 'A Plague Tale: Requiem',
       des: 'Play now with Xbox Game Pass or purchase',
@@ -47,8 +26,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: item5,
-    smSrc: item5_sm,
+    mdSrc: useImageUrl('10018', 'jpg'),
+    smSrc: useImageUrl('10019', 'jpg'),
     text: {
       title: 'Persona 5 Royal',
       des: 'Play now with Xbox Game Pass or purchase',
@@ -58,8 +37,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: item7,
-    smSrc: item7_sm,
+    mdSrc: useImageUrl('10022', 'jpg'),
+    smSrc: useImageUrl('10023', 'jpg'),
     text: {
       title: 'Apex Legends',
       des: 'Explore the new map Broken Moon and meet Catalyst',
@@ -69,8 +48,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: item9,
-    smSrc: item9_sm,
+    mdSrc: useImageUrl('10026', 'jpg'),
+    smSrc: useImageUrl('10027', 'jpg'),
     text: {
       title: 'Prove worthy of Wakanda',
       des: 'Master the challenge to win with Black Panther: Wakanda Forever and Xbox. ',
@@ -80,8 +59,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'none',
-    mdSrc: item10,
-    smSrc: item10,
+    mdSrc: useImageUrl('10029', 'jpg'),
+    smSrc: useImageUrl('10029', 'jpg'),
     text: {
       title: 'Atomic Heart',
       des: 'What lies behind the utopian dream?',
@@ -92,8 +71,8 @@ const ItemList: ItemCardProps[] = [
 
   {
     direction: 'left',
-    mdSrc: item2,
-    smSrc: item2_sm,
+    mdSrc: useImageUrl('10013', 'jpg'),
+    smSrc: useImageUrl('10014', 'jpg'),
     text: {
       title: 'Discover your next favorite game',
       des: 'Play hundreds of high-quality games with friends on console, PC, phones and tablets.',
@@ -103,8 +82,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'none',
-    mdSrc: item4,
-    smSrc: item4,
+    mdSrc: useImageUrl('10015', 'jpg'),
+    smSrc: useImageUrl('10015', 'jpg'),
     text: {
       title: 'XBOX ELITE, YOUR WAY',
       des: 'Customize the Xbox Elite Wireless Controller Series 2 with Xbox Design Lab.',
@@ -114,8 +93,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: item6,
-    smSrc: item6_sm,
+    mdSrc: useImageUrl('10020', 'jpg'),
+    smSrc: useImageUrl('10021', 'jpg'),
     text: {
       title: 'Minecraft x Burberry',
       des: 'Adventure in a Free Immersive DLC & a Unique Capsule Collection',
@@ -125,8 +104,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: item8,
-    smSrc: item8_sm,
+    mdSrc: useImageUrl('10024', 'jpg'),
+    smSrc: useImageUrl('10025', 'jpg'),
     text: {
       title: 'OlliOlli World',
       des: 'Discover Radlantis in OlliOlli World: Finding the Flowzone',
@@ -136,8 +115,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'none',
-    mdSrc: item11,
-    smSrc: item11,
+    mdSrc: useImageUrl('10028', 'jpg'),
+    smSrc: useImageUrl('10028', 'jpg'),
     text: {
       title: 'OlliOlli World',
       des: 'Discover Radlantis in OlliOlli World: Finding the Flowzone',
@@ -147,8 +126,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'left',
-    mdSrc: item12,
-    smSrc: item12_sm,
+    mdSrc: useImageUrl('10030', 'jpg'),
+    smSrc: useImageUrl('10031', 'jpg'),
     text: {
       title: 'Gotham Knights',
       des: 'Batgirl, Nightwing, Red Hood and Robin are the new protectors of Gotham City',
@@ -159,8 +138,8 @@ const ItemList: ItemCardProps[] = [
 ]
 const lastItem: ItemCardProps = {
   direction: 'none',
-  mdSrc: item13,
-  smSrc: item13_sm,
+  mdSrc: useImageUrl('10032', 'jpg'),
+  smSrc: useImageUrl('10038', 'jpg'),
   text: {
     title: 'Gotham Knights',
     des: 'Batgirl, Nightwing, Red Hood and Robin are the new protectors of Gotham City',
