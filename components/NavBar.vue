@@ -33,10 +33,10 @@ watch(width, (val) => {
   >
     <div h-full flex>
       <a w-40 flex justify-center items-center>
-        <img h-7 width-35 src="~/assets/images/ms_logo.png" alt="" />
+        <nuxt-img h-7 width-35 src="/ms_logo.png" alt="" />
       </a>
       <a class="xboxLogo" w-35 relative h-full flex justify-center items-center>
-        <img w-25 src="~/assets/images/xbox_logo.png" alt="" />
+        <nuxt-img w-25 src="/xbox_logo.png" alt="" />
       </a>
       <ul class="h-full flex items-center">
         <li v-for="(item, index) in MenuList" :key="index" h-full>
@@ -130,7 +130,6 @@ watch(width, (val) => {
   height: 24px;
   content: ' ';
   position: absolute;
-  top: 15px;
   left: 0;
 }
 

@@ -4,8 +4,8 @@ import type { ItemCardProps } from './type'
 const ItemList: ItemCardProps[] = [
   {
     direction: 'none',
-    mdSrc: useImageUrl('10012', 'jpg'),
-    smSrc: useImageUrl('10012', 'jpg'),
+    mdSrc: useImageUrl('10012'),
+    smSrc: useImageUrl('10012'),
     text: {
       title: 'Atomic Heart',
       des: 'What lies behind the utopian dream?',
@@ -15,8 +15,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: useImageUrl('10016', 'jpg'),
-    smSrc: useImageUrl('10017', 'jpg'),
+    mdSrc: useImageUrl('10016'),
+    smSrc: useImageUrl('10017'),
     text: {
       title: 'A Plague Tale: Requiem',
       des: 'Play now with Xbox Game Pass or purchase',
@@ -26,8 +26,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: useImageUrl('10018', 'jpg'),
-    smSrc: useImageUrl('10019', 'jpg'),
+    mdSrc: useImageUrl('10018'),
+    smSrc: useImageUrl('10019'),
     text: {
       title: 'Persona 5 Royal',
       des: 'Play now with Xbox Game Pass or purchase',
@@ -37,8 +37,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: useImageUrl('10022', 'jpg'),
-    smSrc: useImageUrl('10023', 'jpg'),
+    mdSrc: useImageUrl('10022'),
+    smSrc: useImageUrl('10023'),
     text: {
       title: 'Apex Legends',
       des: 'Explore the new map Broken Moon and meet Catalyst',
@@ -48,8 +48,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: useImageUrl('10026', 'jpg'),
-    smSrc: useImageUrl('10027', 'jpg'),
+    mdSrc: useImageUrl('10026'),
+    smSrc: useImageUrl('10027'),
     text: {
       title: 'Prove worthy of Wakanda',
       des: 'Master the challenge to win with Black Panther: Wakanda Forever and Xbox. ',
@@ -59,8 +59,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'none',
-    mdSrc: useImageUrl('10029', 'jpg'),
-    smSrc: useImageUrl('10029', 'jpg'),
+    mdSrc: useImageUrl('10029'),
+    smSrc: useImageUrl('10029'),
     text: {
       title: 'Atomic Heart',
       des: 'What lies behind the utopian dream?',
@@ -71,8 +71,8 @@ const ItemList: ItemCardProps[] = [
 
   {
     direction: 'left',
-    mdSrc: useImageUrl('10013', 'jpg'),
-    smSrc: useImageUrl('10014', 'jpg'),
+    mdSrc: useImageUrl('10013'),
+    smSrc: useImageUrl('10014'),
     text: {
       title: 'Discover your next favorite game',
       des: 'Play hundreds of high-quality games with friends on console, PC, phones and tablets.',
@@ -82,8 +82,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'none',
-    mdSrc: useImageUrl('10015', 'jpg'),
-    smSrc: useImageUrl('10015', 'jpg'),
+    mdSrc: useImageUrl('10015'),
+    smSrc: useImageUrl('10015'),
     text: {
       title: 'XBOX ELITE, YOUR WAY',
       des: 'Customize the Xbox Elite Wireless Controller Series 2 with Xbox Design Lab.',
@@ -93,8 +93,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: useImageUrl('10020', 'jpg'),
-    smSrc: useImageUrl('10021', 'jpg'),
+    mdSrc: useImageUrl('10020'),
+    smSrc: useImageUrl('10021'),
     text: {
       title: 'Minecraft x Burberry',
       des: 'Adventure in a Free Immersive DLC & a Unique Capsule Collection',
@@ -104,8 +104,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'right',
-    mdSrc: useImageUrl('10024', 'jpg'),
-    smSrc: useImageUrl('10025', 'jpg'),
+    mdSrc: useImageUrl('10024'),
+    smSrc: useImageUrl('10025'),
     text: {
       title: 'OlliOlli World',
       des: 'Discover Radlantis in OlliOlli World: Finding the Flowzone',
@@ -115,8 +115,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'none',
-    mdSrc: useImageUrl('10028', 'jpg'),
-    smSrc: useImageUrl('10028', 'jpg'),
+    mdSrc: useImageUrl('10028'),
+    smSrc: useImageUrl('10028'),
     text: {
       title: 'OlliOlli World',
       des: 'Discover Radlantis in OlliOlli World: Finding the Flowzone',
@@ -126,8 +126,8 @@ const ItemList: ItemCardProps[] = [
   },
   {
     direction: 'left',
-    mdSrc: useImageUrl('10030', 'jpg'),
-    smSrc: useImageUrl('10031', 'jpg'),
+    mdSrc: useImageUrl('10030'),
+    smSrc: useImageUrl('10031'),
     text: {
       title: 'Gotham Knights',
       des: 'Batgirl, Nightwing, Red Hood and Robin are the new protectors of Gotham City',
@@ -138,8 +138,8 @@ const ItemList: ItemCardProps[] = [
 ]
 const lastItem: ItemCardProps = {
   direction: 'none',
-  mdSrc: useImageUrl('10032', 'jpg'),
-  smSrc: useImageUrl('10038', 'jpg'),
+  mdSrc: useImageUrl('10032'),
+  smSrc: useImageUrl('10038'),
   text: {
     title: 'Gotham Knights',
     des: 'Batgirl, Nightwing, Red Hood and Robin are the new protectors of Gotham City',

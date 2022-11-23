@@ -4,10 +4,10 @@ import type Option from './type'
 
 const options = ref<Option[]>([
   {
-    src: useImageUrl('banner_1', 'jpg'),
-    xlSrc: useImageUrl('banner_1', 'jpg'),
-    mdSrc: useImageUrl('banner_1_md', 'jpg'),
-    smSrc: useImageUrl('banner_1_sm', 'jpg'),
+    src: useImageUrl('banner_1'),
+    xlSrc: useImageUrl('banner_1'),
+    mdSrc: useImageUrl('banner_1_md'),
+    smSrc: useImageUrl('banner_1_sm'),
     textAling: 'right',
     text: {
       title: 'Call of Duty®: \n Modern Warfare® II',
@@ -16,10 +16,10 @@ const options = ref<Option[]>([
     },
   },
   {
-    src: useImageUrl('banner_2', 'jpg'),
-    xlSrc: useImageUrl('banner_2', 'jpg'),
-    mdSrc: useImageUrl('banner_2_md', 'jpg'),
-    smSrc: useImageUrl('banner_2_sm', 'jpg'),
+    src: useImageUrl('banner_2'),
+    xlSrc: useImageUrl('banner_2'),
+    mdSrc: useImageUrl('banner_2_md'),
+    smSrc: useImageUrl('banner_2_sm'),
     textAling: 'left',
     text: {
       title: 'Xbox Series S + \n  Xbox Game Pass',
@@ -28,10 +28,10 @@ const options = ref<Option[]>([
     },
   },
   {
-    src: useImageUrl('banner_3', 'jpg'),
-    xlSrc: useImageUrl('banner_3', 'jpg'),
-    mdSrc: useImageUrl('banner_3_md', 'jpg'),
-    smSrc: useImageUrl('banner_3_sm', 'jpg'),
+    src: useImageUrl('banner_3'),
+    xlSrc: useImageUrl('banner_3'),
+    mdSrc: useImageUrl('banner_3_md'),
+    smSrc: useImageUrl('banner_3_sm'),
     textAling: 'right',
     text: {
       title: 'Xbox & Bethesda \n Anniversary \n Collection',

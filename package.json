@@ -11,6 +11,7 @@
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "@iconify-json/carbon": "^1.1.10",
+    "@nuxt/image-edge": "1.0.0-27809804.194d2d6",
     "@sxzz/eslint-config": "^2.4.4",
     "@unocss/nuxt": "^0.46.5",
     "@vueuse/nuxt": "^9.5.0",
