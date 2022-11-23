@@ -11,7 +11,6 @@ export default defineNuxtConfig({
   },
   image: {
     dir: 'assets/images',
-    staticFilename: '[publicPath]/images/[name]-[hash][ext]',
     screens: {
       xs: 320,
       sm: 640,
